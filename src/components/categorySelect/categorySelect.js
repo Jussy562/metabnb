@@ -66,18 +66,18 @@ function Category() {
                
             </ul>
         </div>
-        <div className='hidden md:flex gap-10'>
-            <a href='/' className='text-3xl text-black hover:text-[#A02279]'>Restaurant</a>
-            <a href='/' className='text-3xl text-black hover:text-[#A02279]'>Cottage</a>
-            <a href='/' className='text-3xl text-black hover:text-[#A02279]'>Castle</a>
-            <a href='/' className='text-3xl text-black hover:text-[#A02279]'>Fantast City</a>
-            <a href='/' className='text-3xl text-black hover:text-[#A02279]'>Beach</a>
-            <a href='/' className='text-3xl text-black hover:text-[#A02279]'>Carbins</a>
-            <a href='/' className='text-3xl text-black hover:text-[#A02279]'>Off-grid</a>
-            <a href='/' className='text-3xl text-black hover:text-[#A02279]'>Farm</a>
+        <div className='hidden md:flex md:gap-10 md:items-center md:justify-center'>
+            <a href='/' className='text-xl text-black hover:text-[#A02279]'>Restaurant</a>
+            <a href='/' className='text-xl text-black hover:text-[#A02279]'>Cottage</a>
+            <a href='/' className='text-xl text-black hover:text-[#A02279]'>Castle</a>
+            <a href='/' className='text-xl text-black hover:text-[#A02279]'>Fantast City</a>
+            <a href='/' className='text-xl text-black hover:text-[#A02279]'>Beach</a>
+            <a href='/' className='text-xl text-black hover:text-[#A02279]'>Carbins</a>
+            <a href='/' className='text-xl text-black hover:text-[#A02279]'>Off-grid</a>
+            <a href='/' className='text-xl text-black hover:text-[#A02279]'>Farm</a>
         </div>
         <div className='flex justify-between items-center rounded-lg border border-gray-300 p-2 md:px-6 md:py-2 h-[40px] md:h-auto w-auto '>
-            <p className=''>Location</p>
+            <p className='mr-5'>Location</p>
             <img src='/images/setting.png' alt='setting' />
         </div>
     </div>
