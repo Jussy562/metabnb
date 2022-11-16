@@ -22,7 +22,7 @@ function Footer() {
             <div className='justify-start md:justify-center'>
                 <h5 className='text-white text-sm md:text-lg font-bold'>Community</h5>
             </div>
-            <div className='md:flex flex-col justify-start md:justify-between items-center gap-4'>
+            <div className='flex flex-col justify-start md:justify-between md:items-center gap-4'>
                 <a href='/' className='text-gray-400 text-xsm md:text-sm hover:text-[#A02279]'>NFT</a>
                 <a href='/' className='text-gray-400 text-xsm md:text-sm hover:text-[#A02279]'>Tokens</a>
                 <a href='/' className='text-gray-400 text-xsm md:text-sm hover:text-[#A02279]'>Landlords</a>
@@ -34,7 +34,7 @@ function Footer() {
             <div className='justify-start md:justify-center'>
                 <h5 className='text-white text-sm md:text-lg font-bold'>Places</h5>
             </div>
-            <div className='md:flex flex-col justify-start md:justify-between items-center gap-4'>
+            <div className='flex flex-col justify-start md:justify-between md:items-center gap-4'>
                 <a href='/' className='text-gray-400 text-xsm md:text-sm hover:text-[#A02279]'>Castles</a>
                 <a href='/' className='text-gray-400 text-xsm md:text-sm hover:text-[#A02279]'>Farms</a>
                 <a href='/' className='text-gray-400 text-xsm md:text-sm hover:text-[#A02279]'>Beach</a>
@@ -46,7 +46,7 @@ function Footer() {
             <div className='justify-start md:justify-center'>
                 <h5 className='text-white text-sm md:text-lg font-bold'>About us</h5>
             </div>
-            <div className='md:flex flex-col justify-start md:justify-between items-center gap-4'>
+            <div className='flex flex-col justify-start md:justify-between md:items-center gap-4'>
                 <a href='/' className='text-gray-400 text-xsm md:text-sm hover:text-[#A02279]'>Roadmap</a>
                 <a href='/' className='text-gray-400 text-xsm md:text-sm hover:text-[#A02279]'>Creators</a>
                 <a href='/' className='text-gray-400 text-xsm md:text-sm hover:text-[#A02279]'>Career</a>
