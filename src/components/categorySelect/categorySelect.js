@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import Select from 'react-tailwindcss-select';
+// import {AiCheveronDown} from 'react-icon/ai';
+
 
 const options = [
     {value: "Restaurant", label: "Restaurant"},
@@ -15,11 +16,9 @@ const options = [
 function Category() {
 
     const [places, setPlaces] = useState("Places");
+
     
-    const handleChange = (value) => {
-        
-        setPlaces(value);
-    };
+   
 
   return (
     <div className='flex mt-5 md:px-20 px-4 md:gap-11'>
@@ -29,20 +28,19 @@ function Category() {
             onChange={handleChange}
             options={options}
         /> */}
-        <div className='flex flex-col md:hidden font-medium'>
-            <div className='bg-white w-full p-2 flex items-center justify-between rounded-lg'>
-                Places
-
+        <div className='flex flex-col justify-between md:hidden  font-medium w-full'>
+            <div className='bg-white w-60 p-2 border border-gray-300 flex items-center justify-between rounded-lg h-{30px}'>
+                {places}
+                {/* <AiCheveronDown /> */}
             </div>
-            <ul className='bg-white mt-2'>
-                <li className='p-2 text-sm hover:bg-[#A02279] hover:text-white'>Restaurant</li>
-                <li className='p-2 text-sm hover:bg-[#A02279] hover:text-white'>Cottage</li>
-                <li className='p-2 text-sm hover:bg-[#A02279] hover:text-white'>Castle</li>
-                <li className='p-2 text-sm hover:bg-[#A02279] hover:text-white'>Fantast City</li>
-                <li className='p-2 text-sm hover:bg-[#A02279] hover:text-white'>Beach</li>
-                <li className='p-2 text-sm hover:bg-[#A02279] hover:text-white'>Carbins</li>
-                <li className='p-2 text-sm hover:bg-[#A02279] hover:text-white'>Off-grid</li>
-                <li className='p-2 text-sm hover:bg-[#A02279] hover:text-white'>Farms</li>
+            <ul className='fixed top-36 left-4 bg-white mt-2 h-80 w-60'>
+                {
+                    options.map((item) => (
+                        <li onClick={() => setPlaces(item.value)} className='p-2 text-sm hover:bg-[#A02279] hover:text-white cursor-pointer' key={item.value}>{item.value}</li>
+                    ))
+                }
+                
+               
             </ul>
         </div>
         <div className='hidden md:flex gap-10'>
@@ -55,7 +53,7 @@ function Category() {
             <a href='/' className='text-3xl text-black hover:text-[#A02279]'>Off-grid</a>
             <a href='/' className='text-3xl text-black hover:text-[#A02279]'>Farm</a>
         </div>
-        <button className='rounded-lg border border-gray-300 px-6 py-2'>
+        <button className='rounded-lg border border-gray-300 p-2 md:px-6 md:py-2 h-[40px] md:h-auto'>
             Location
         </button>
     </div>
