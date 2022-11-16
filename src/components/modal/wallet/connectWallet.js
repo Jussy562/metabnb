@@ -5,8 +5,8 @@ function ConnectWallet({visible, onClose}) {
     if(!visible) return null;
   return (
     <div className='fixed inset-0 bg-black bg-opacity-30 
-    backdrop-blur-sm flex justify-center items-center '>
-        <div className='bg-white p-5 w-1/3 rounded-lg '>
+    backdrop-blur-sm flex justify-center items-center px-6 md:px-0 '>
+        <div className='bg-white p-5 w-full md:w-1/3 rounded-lg '>
             <div className='flex justify-between items-center pb-4'>
                 <p className='font-bold text-black text-xl'>Connect Wallet</p>
                 <button onClick={onClose} className='text-[#A02279] font-bold text-xl'>X</button>
