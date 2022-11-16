@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className='flex flex-col md:grid md:grid-cols-4 md:gap-3 p-20 h-80 bg-black'>
+    <footer className='flex flex-col md:grid md:grid-cols-4 md:gap-3 p-20 h-auto bg-black'>
         <div className='flex flex-col justify-between items-center'>
             <img src='/images/metabnb.png' alt='footer logo ' className='mb-12'/>
             <div className='flex flex-row justify-center items-center mb-6 gap-6 w-full'>

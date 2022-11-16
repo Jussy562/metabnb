@@ -1,14 +1,14 @@
 import React from 'react';
 import NftDiscover from '../section/nftDiscover';
 import PlaceSection from '../section/nftSection';
-import Navbar from '../navbar/navbar';
+
 import Banner from '../banner/banner';
 
 function Home() {
   return (
-    <div>
-        <header className='md:py-12 md:px-20 px-4 py-6  flex-col mb-6'>
-        <Navbar />
+    <div className='mt-20 md:mt-40'>
+        <header className='md:py-12 md:px-20 px-4 py-6   flex-col mb-6'>
+        
         <Banner />
       </header>
       <section className='w-full'>
@@ -27,6 +27,7 @@ function Home() {
             <h4 className='text-white text-sm md:text-xl md:font-bold'>OpenSea</h4>
           </div>
         </div>
+        
         <PlaceSection />
         <NftDiscover />
       </section>

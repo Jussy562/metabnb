@@ -1,11 +1,15 @@
 import React, {useState} from 'react';
+import ConnectWallet from '../modal/wallet/connectWallet';
 import menuItems from './navMenuFiles';
 
 
 function Navbar() {
   const [open, setOpen] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+
+  const handleOnClose = () => setShowModal(false);
   return (
-    <nav class='bg-none mb-20 w-full md:flex md:justify-between md:item-center  '>
+    <nav class='bg-white fixed top-0 left-0 md:pb-6 md:pt-12 md:px-20 px-4 py-6 mb-20 w-full md:flex md:justify-between md:item-center  '>
       
       
        <div className='flex justify-between item-center'>
@@ -51,7 +55,7 @@ function Navbar() {
             
           </ul>
           
-          <button className='px-4 py-4 rounded-lg bg-[#A02279] text-white text-xl font-bold font-[poppins]  hover:bg-pink-400 transition duration:300'>
+          <button onClick={()=> setShowModal(true)} className='px-4 md:px-6 py-2 md:py-4 rounded-lg bg-[#A02279] text-white text-xl font-bold font-[poppins]  hover:bg-pink-400 transition duration:300'>
               connect wallet
           </button>
           {/* <div className='flex'>
@@ -60,6 +64,7 @@ function Navbar() {
             
           </div> */}
         </div>
+        <ConnectWallet onClose={handleOnClose} visible={showModal} />
 
       
     </nav>

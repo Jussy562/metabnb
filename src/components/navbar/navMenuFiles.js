@@ -9,7 +9,7 @@ export const menuItems = [
     {
         id: "place_tab",
         name: "Place to stay",
-        url: "https://training.zuri.team/",
+        url: "place",
         pageName: "place",
     },
 

@@ -136,6 +136,51 @@ export const nftItems = [
         rating: "/images/rate.png"
     },
 
+    {
+        id: "13",
+        name: "Desert King",
+        url: "/",
+        image: "/images/nft5.png",
+        tag: "brabrabra",
+        price: "Homepage",
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
+
+    },
+
+    {
+        id: 14,
+        name: "Desert King",
+        url: "/",
+        image: "/images/nft7.png",
+        tag: "brabrabra",
+        price: "Homepage",
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
+    },
+
+    {
+        id: "15",
+        name: "Desert King",
+        url: "/",
+        image: "/images/nft1.png",
+        tag: "brabrabra",
+        price: "Homepage",
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
+    },
+
+    {
+        id: "16",
+        name: "Desert King",
+        url: "/",
+        image: "/images/nft2.png",
+        tag: "brabrabra",
+        price: "Homepage",
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
+    }
+
 ];
 
 export default nftItems;
