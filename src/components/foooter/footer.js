@@ -11,9 +11,9 @@ function Footer() {
                 <img src='images/instagram.png' alt='instagram' />
                 <img src='images/twitter.png' alt='twitter' />
             </div>
-            <div className='flex justify-start md:justify-center text-gray-400'>
+            <div className='flex items-center justify-start md:justify-center text-gray-400'>
                 <AiOutlineCopyrightCircle />
-                <p>2022 Metabnb</p>
+                <p className='ml-3'>2022 Metabnb</p>
 
             </div>
         </div>
