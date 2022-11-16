@@ -6,7 +6,9 @@ export const nftItems = [
         image: "/images/nft12.png",
         tag: "brabrabra",
         price: "Homepage",
-        status: "Available for 2 weeks stay"
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
+        
     },
 
     {
@@ -16,7 +18,8 @@ export const nftItems = [
         image: "/images/nft1.png",
         tag: "brabrabra",
         price: "Homepage",
-        status: "Available for 2 weeks stay"
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
     },
 
     {
@@ -26,7 +29,8 @@ export const nftItems = [
         image: "/images/nft2.png",
         tag: "brabrabra",
         price: "Homepage",
-        status: "Available for 2 weeks stay"
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
     },
 
     
@@ -37,7 +41,8 @@ export const nftItems = [
         image: "/images/nft3.png",
         tag: "brabrabra",
         price: "Homepage",
-        status: "Available for 2 weeks stay"
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
     },
     
     
@@ -48,7 +53,8 @@ export const nftItems = [
         image: "/images/nft4.png",
         tag: "brabrabra",
         price: "Homepage",
-        status: "Available for 2 weeks stay"
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
     },
 
     
@@ -59,7 +65,9 @@ export const nftItems = [
         image: "/images/nft5.png",
         tag: "brabrabra",
         price: "Homepage",
-        status: "Available for 2 weeks stay"
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
+
     },
 
     {
@@ -69,7 +77,8 @@ export const nftItems = [
         image: "/images/nft6.png",
         tag: "brabrabra",
         price: "Homepage",
-        status: "Available for 2 weeks stay"
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
     },
 
     {
@@ -79,7 +88,8 @@ export const nftItems = [
         image: "/images/nft7.png",
         tag: "brabrabra",
         price: "Homepage",
-        status: "Available for 2 weeks stay"
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
     },
 
     {
@@ -89,7 +99,8 @@ export const nftItems = [
         image: "/images/nft8.png",
         tag: "brabrabra",
         price: "Homepage",
-        status: "Available for 2 weeks stay"
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
     },
 
     {
@@ -99,7 +110,8 @@ export const nftItems = [
         image: "/images/nft9.png",
         tag: "brabrabra",
         price: "Homepage",
-        status: "Available for 2 weeks stay"
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
     },
 
     {
@@ -109,7 +121,8 @@ export const nftItems = [
         image: "/images/nft10.png",
         tag: "brabrabra",
         price: "Homepage",
-        status: "Available for 2 weeks stay"
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
     },
 
     {
@@ -119,7 +132,8 @@ export const nftItems = [
         image: "/images/nft11.png",
         tag: "brabrabra",
         price: "Homepage",
-        status: "Available for 2 weeks stay"
+        status: "Available for 2 weeks stay",
+        rating: "/images/rate.png"
     },
 
 ];

@@ -43,7 +43,7 @@ function Navbar() {
                                     key={item.id}
                                     className='p-0 my-7 md:my-0'
                                     >
-                                        <a key={item.id} href={item.url} className='text-3xl text-gray900 hover:text-pink-300'   > {item.name}</a>
+                                        <a key={item.id} href={item.url} className='text-3xl text-gray900 hover:text-[#A02279]'   > {item.name}</a>
                                     </li>
                                 ))
             }
@@ -51,7 +51,7 @@ function Navbar() {
             
           </ul>
           
-          <button className='px-6 py-2 rounded-lg bg-pink-600 text-white font-[poppins]  hover:bg-pink-400 transition duration:300'>
+          <button className='px-4 py-4 rounded-lg bg-[#A02279] text-white text-xl font-bold font-[poppins]  hover:bg-pink-400 transition duration:300'>
               connect wallet
           </button>
           {/* <div className='flex'>

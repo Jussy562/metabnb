@@ -9,8 +9,8 @@ function Banner() {
                 <p className='mb-12  text-xl md:text-2xl'>We provide you access to luxury and affordable houses in the netaverse, get a chance to turn your imagination to reality at your comfort zone</p>
                 <form className=''>
                     <div className='flex flex-row rounded-lg border border-gray-300 w-full md:w-2/3'>
-                        <input  type={'text'} placeholder='search for a location' className='text-gray-300 px-4 border-none focus:none  w-2/3' />
-                        <button className='w-1/3 px-6 py-2 rounded-lg bg-pink-600 text-white font-[poppins]  hover:bg-pink-400 transition duration:300'>
+                        <input  type={'text'} placeholder='search for a location' className='text-gray-300 px-4 border-none focus:outline-[#A02279]  w-2/3' />
+                        <button className='w-1/3 px-4 py-4 rounded-r-lg  bg-[#A02279] text-white text-xl font-bold font-[poppins]  hover:bg-pink-400 transition duration:300'>
                             search
                         </button>
                     </div>
