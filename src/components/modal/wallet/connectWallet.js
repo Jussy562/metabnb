@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { BiChevronRight } from 'react-icons/bi';
 
 function ConnectWallet({visible, onClose}) {
     if(!visible) return null;
@@ -13,25 +14,28 @@ function ConnectWallet({visible, onClose}) {
             <hr />
             <div className='p-5 flex flex-col justify-between gap-3'>
                 <p>Choose your prefered wallet:</p>
-                <a className='flex justify-between items-center p-2 w-full border 
-                border-gray-300 rounded-lg'>
+                <a href='/' className='flex justify-between items-center p-2 w-full border 
+                border-gray-300 rounded-lg hover:bg-gray-100'>
                 
-                    <div className='flex text-l text-black font-bold'>
+                    <div className='flex text-l items-center gap-1 text-black font-bold'>
+                        <img src='/images/metamaskC.png' alt='meatmask connect' />
                         Metamask
                     </div>
                     <div className='flex text-xl text-gray-400'>
-                        
+                        <BiChevronRight />
                     </div>
 
                 </a>
 
-                <a className='flex justify-between items-center p-2 w-full border 
-                border-gray-300 rounded-lg'>
+                <a href='/' className=' flex justify-between items-center p-2 w-full border 
+                border-gray-300 rounded-lg hover:bg-gray-100'>
                 
-                    <div className='flex text-l text-black font-bold'>
+                    <div className='flex text-l items-center gap-1 text-black font-bold'>
+                        <img src='/images/walletC.png' alt='wallet connect' />
                         WalletConnect
                     </div>
                     <div className='flex text-xl text-gray-400'>
+                        <BiChevronRight />
                         
                     </div>
 
